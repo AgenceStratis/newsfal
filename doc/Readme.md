@@ -12,21 +12,24 @@ Just install the extension and it will add new image field to Your news.
 
 /Resources/Private/Partials/List/Item.html
 
-<f:for each="{newsItem.txNewsfalImage}" as="image" key="number" iteration="itemIteration">
-	<f:format.html>
-		number : {number}
-		image.uid : {image.uid}
-		image.public_url : {image.public_url}
-		image.title : {image.title}
-		image.description : {image.description} 
-		image.extension : {image.extension}
-		image.size : {image.size}
-		image.creation_time : {image.creation_time}
-		image.modification_time : {image.modification_time}
-		image.width : {image.width}
-		image.height : {image.height}
-	</f:format.html>
-</f:for>
+	<f:for each="{newsItem.txNewsfalImage}" as="image" key="number" iteration="itemIteration">
+		<f:format.html>
+			number : {number}
+			image.uid : {image.uid}
+			image.public_url : {image.public_url}
+			image.title : {image.title}
+			image.alt : {image.alt}
+			image.description : {image.description} 
+			image.extension : {image.extension}
+			image.size : {image.size}
+			image.creation_time : {image.creation_time}
+			image.modification_time : {image.modification_time}
+			image.width : {image.width}
+			image.height : {image.height}
+			image.caption : {image.caption}
+			image.creator : {image.creator}	
+		</f:format.html>
+	</f:for>
 
 ## Ressources used during development
 

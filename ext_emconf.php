@@ -3,7 +3,7 @@
 /***************************************************************
  * Extension Manager/Repository config file for ext "newsfal".
  *
- * Auto generated 22-07-2013 12:17
+ * Auto generated 22-07-2013 17:51
  *
  * Manual updates:
  * Only the data in the array - everything else is removed by next
@@ -29,7 +29,7 @@ $EM_CONF[$_EXTKEY] = array (
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
 	'author_company' => 'Stratis',
-	'version' => '0.1.2',
+	'version' => '0.2.0',
 	'constraints' => 
 	array (
 		'depends' => 
